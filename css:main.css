@@ -1,0 +1,215 @@
+/****** BASE STYLES ******/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+/****** HEADER ******/
+
+header {
+    height: 600px;
+    background-image:url("img/background-header-image"); 
+    background-size: cover;
+}
+header h1 { 
+    padding: 50px 0;
+    font-family: 'Lora';
+    color: green;
+    font-weight: bold;
+}
+
+IT'S STYLE TIME
+STEP 11 OF 11: STYLE YOUR HEADER SECTION
+It’s time for the final challenge: your Header section! It’s a little harder than Work and About, but smooth sailing compared to the Contact section. And it brings everything together so nicely!
+
+One thing to note: You’ve (hopefully) been writing your CSS from top to bottom. Since the Header is at the top of the page, the correct place to write this code is just under the Grid section, and just above the About Section. So go ahead and make some space in between those two sections, like this:
+
+
+
+And then once you’re there…
+
+1. GIVE YOUR HEADER A BACKGROUND AND A HEIGHT
+You know how there’s that big beautiful image on the background? Now’s the time that you add it, using a relative URL. Also give this section a height of 800px.
+
+
+header {
+    height: 
+    background: 
+    background-size: cover;
+}
+1
+2
+3
+4
+5
+header {
+    height: 
+    background: 
+    background-size: cover;
+}
+
+
+header h1 { 
+    padding: 50px 0;
+}
+header h1 { 
+    padding: 50px 0;
+}
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+
+<link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+
+
+
+
+
+
+
+
+
+
+nav {
+    float: right; 
+    padding: 75px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform:capitalize;
+    text-decoration:none;
+    font-size: 20px;
+    color: black;
+    padding-left: 80px; 
+}
+nav {
+    float: right; 
+    padding: 75px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform:capitalize;
+    text-decoration:none;
+    font-size: 20px;
+    color:black;
+    padding-left: 80px; 
+}
+
+
+/****** ABOUT ******/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+#about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 42px;
+    padding-right: 50px;
+}
+
+/****** WORK ******/
+
+#work {
+    background-color: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    width: 190px;
+    margin: 0 auto;
+}
+
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #2b2b2b;
+    padding: 0 35px;
+}
+
+/****** CONTACT ******/
+
+#contact {
+    background-color: #ebebeb;
+}
+#contact .full-width {
+    padding: 110px 0;
+}
+#contact-img{
+    border: 12px solid #ffffff;
+}
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#envelope {
+    padding: 0 10px 0 115px;
+}
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+#email-header{
+    font-size: 32px;
+    font-weight: 400;
+    margin: -30px 0 5px 0;
+}
+#socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0px 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
+
