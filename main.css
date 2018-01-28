@@ -24,9 +24,6 @@ body{
 }
 /****** HEADER ******/
 
-header{
-    background: lightgrey;
-    }
 header h1 { 
     font-family: 'Lora', serif;
     font-size: 30px;
@@ -35,7 +32,7 @@ header h1 {
 }
 nav {
     float: right; 
-    padding: 95px 40px;
+    padding: 75px 40px;
 }
 nav ul li{
     display: inline-block;
@@ -61,7 +58,7 @@ header h2 span {
 }
 header{
     height: 800px;
-    background-image: url("background-header-image.png");
+    background-image: url("/Users/pkiley/Desktop/skillcrush-website-files/jubilee/background-header-image.png");
     background-size: cover;
 }
 h1{
@@ -75,7 +72,7 @@ header h1 {
 }
 nav {
     float: right; 
-    padding: 75px 75px 75px 75px;
+    padding: 45px 35px 35px 35px;
 }
 nav ul li{
     display: inline-block;
@@ -83,20 +80,21 @@ nav ul li{
 nav ul li a {
     text-transform:uppercase;
     text-decoration:none;
-    font-size:8px; 
+    font-size:10px; 
     color: grey;
     padding-left: 80px; 
 }
 nav {
     float: right; 
-    padding: 75px 70px;
+    padding: 75px 20px;
 }
 nav ul li a {
     text-transform:uppercase;
     text-decoration:none;
-    font-size: 18px;
+    font-size: 16px;
     color: grey;
-    padding-left: 80px; 
+    padding-left: 80px;
+    padding-right: 30px;
 }
 /****** ABOUT ******/
 
@@ -139,8 +137,8 @@ nav ul li a {
 } 
 #work p {
     font-family: 'Lora', serif;
-    font-size:12px;
-    line-height: 32px;
+    font-size:15px;
+    line-height: 39px;
     color:black;
     padding: 45px;
 }
