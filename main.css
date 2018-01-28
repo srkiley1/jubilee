@@ -61,7 +61,7 @@ header h2 span {
 }
 header{
     height: 800px;
-    background-image: url("background-header-image.png");
+    background-image: url("img/background-header-image.png");
     background-size: cover;
 }
 h1{
